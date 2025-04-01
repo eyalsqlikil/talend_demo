@@ -1,0 +1,28 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "MyDataAPI",
+    "description" : "No description",
+    "version" : "1.0.0"
+  },
+  "paths" : {
+    "/data" : {
+      "get" : {
+        "summary" : "general",
+        "responses" : {
+          "200" : {
+            "description" : "Status 200",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "object"
+                }
+              }
+            }
+          }
+        },
+        "security" : [ ]
+      }
+    }
+  }
+}
